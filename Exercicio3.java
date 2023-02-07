@@ -6,21 +6,21 @@ public class Exercicio3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-double salarioBruto,salarioLiquido,horasExtras,descontos,adicionalNoturno;
+		float salarioBruto,salarioLiquido,horasExtras,descontos,adicionalNoturno;
 
 Scanner leia = new Scanner(System.in);
 
 System.out.println("\nEntre com Salario Bruto: ");
-salarioBruto= leia.nextDouble();
+salarioBruto= leia.nextFloat();
 
 System.out.println("\nEntre com Adicional Noturno: ");
-adicionalNoturno= leia.nextDouble();
+adicionalNoturno= leia.nextFloat();
 
 System.out.println("\nEntre com Horas Extras: ");
-horasExtras= leia.nextDouble();
+horasExtras= leia.nextFloat();
 
 System.out.println("\nEntre com Descontos: ");
-descontos=leia.nextDouble();
+descontos=leia.nextFloat();
 
 salarioLiquido=salarioBruto+adicionalNoturno+(horasExtras *5)-descontos;
 

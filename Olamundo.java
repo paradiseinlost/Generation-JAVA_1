@@ -17,7 +17,7 @@ public class Olamundo {
     System.out.println ("\nSua altura é:"+altura);
     
     System.out.println("\nEntre com sua primeira nota");	
-    nota1 = leia.nextdouble ();
+    nota1 = leia.nextDouble ();
     		
     		
     
